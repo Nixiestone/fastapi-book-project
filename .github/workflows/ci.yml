@@ -28,7 +28,7 @@ jobs:
       - name: Run Pylint
         run: |
           pip install pylint
-          pylint main.py  # Replace with your actual Python code directory
+          pylint main.py  
         continue-on-error: false  # Make sure the pipeline fails if linting fails
 
       # Testing step (replace with your testing framework, e.g., pytest)
@@ -42,6 +42,7 @@ jobs:
       - name: Check code formatting (optional)
         run: |
           pip install black
-          black --main.py      
+          black --main.py 
+
         continue-on-error: false  # Ensure the pipeline fails if formatting check fails 
           
