@@ -33,7 +33,7 @@ jobs:
       # Testing step using pytest
       - name: Run tests
         run: |
-          pytest --maxfail=1 --disable-warnings -q  # Adjust according to your test suite
+          pytest --maxfail=1 --disable-warnings -v  # Adjust according to your test suite
         continue-on-error: false  # Fail the pipeline if tests fail
 
       # Check code formatting using black
