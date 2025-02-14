@@ -42,5 +42,5 @@ jobs:
       - name: Check code formatting (optional)
         run: |
           pip install black
-          black --check your_code_directory  # Replace with the code directory you want to check
+          black --check fastapi-book-project  # Replace with the code directory you want to check
         continue-on-error: false  # Ensure the pipeline fails if formatting check fails
