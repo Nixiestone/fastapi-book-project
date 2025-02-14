@@ -28,7 +28,7 @@ jobs:
       - name: Run Pylint
         run: |
           pip install pylint
-          pylint your_code_directory  # Replace with your actual Python code directory
+          pylint fastapi-book-project  # Replace with your actual Python code directory
         continue-on-error: false  # Make sure the pipeline fails if linting fails
 
       # Testing step (replace with your testing framework, e.g., pytest)
