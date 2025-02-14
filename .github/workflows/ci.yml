@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-        # Linting step (using pylint as an example for Python)
+       # Linting step (using pylint as an example for Python)
       - name: Run Pylint
         run: |
           pip install pylint
